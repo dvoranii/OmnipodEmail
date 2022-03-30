@@ -1,173 +1,341 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnipod</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #eee;
+      }
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pod Promise</title>
-    <style type="text/css">
-        html,
-        body {
-            position: relative;
-            overflow-x: hidden;
-        }
+      table {
+        border-spacing: 0;
+      }
 
-        body {
-            margin: 0;
-            background-color: #eee;
+      td {
+        padding: 0;
+      }
 
-        }
+      img {
+        border: 0;
+      }
 
-        table {
-            border-spacing: 0;
-        }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #fff;
+      }
 
-        td {
-            padding: 0;
-        }
+      .main {
+        background-color: #ffffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        height: 20px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #171a1b;
+      }
 
-        img {
-            border: 0;
-        }
+      .two-columns {
+        font-size: 0;
+        text-align: center;
+      }
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            background-color: #ffffff;
-        }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+      }
 
-        .main {
-            background-color: #ffffff;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
-            border-spacing: 0;
-            font-family: sans-serif;
-            color: #222222;
-        }
+      .banner-img {
+        width: "600";
+        max-width: 100%;
+      }
 
-        .two-columns {
-            font-size: 0;
-            text-align: center;
-        }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+      }
 
-        .two-columns .column {
-            width: 100%;
-            max-width: 278px;
-            display: inline-block;
-            vertical-align: top;
-        }
-        </style>
-        </head>
+      .two-columns .content {
+        font-size: 24px;
+      }
 
-        <body>
+      .two-columns.last {
+        /* max-width: ; */
+      }
 
-            <div class="wrapper">
-                <table class="main"> 
-                    <!-- Logo section -->
+      .path-text {
+        margin-left: -50px;
+        margin-top: 80px;
+        max-width: 300px;
+      }
+
+      .pod-pic {
+        padding: 0px 0px 0px 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <table class="main">
+        <!-- Logo Section -->
+        <tr>
+          <td>
+            <a href="#"
+              ><img
+                src="img/logo.png"
+                alt=""
+                style="max-width: 600px; padding-left: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!-- Banner Section -->
+
+        <tr>
+          <td>
+            <a href="#"
+              ><img
+                src="img/banner.png"
+                alt=""
+                style="max-width: 600px"
+            /></a>
+          </td>
+        </tr>
+
+        <!-- Join program section -->
+        <tr>
+          <td style="padding-top: 40px">
+            <p
+              style="
+                line-height: 1.4;
+                font-size: 18px;
+                letter-spacing: 0.5;
+                max-width: 400px;
+                margin: 0 auto;
+              "
+            >
+              Switch to the tubeless Omnipod DASH® Insulin Management System and
+              get a Personal Diabetes Manager (PDM) at no cost.*
+              <br /><br />
+              <span style="font-weight: bold"
+                >Join our Cut the Cord Program today!</span
+              ><br /><br />
+            </p>
+          </td>
+        </tr>
+
+        <!-- TWO COLUMN SECTION -->
+        <tr>
+          <td style="background-color: #eeeeee; color: #eee">
+            <table width="100%">
+              <tr>
+                <td class="two-columns last">
+                  <table class="column">
                     <tr>
-                        <td>
-                            <table width="100%">
-                                <tr>
-                                    <td>
-                                        <a href="#"><img src="/img/logo.png" width="164" alt="" style="padding: 10px 0px 0px 50px;"></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img
+                                src="img/POD+PDM-updated.png"
+                                alt=""
+                                width="180"
+                                class="pod-pic"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
                     </tr>
-
-                    <!-- Banner section -->
+                  </table>
+                  <table class="column">
                     <tr>
-                        <td><img src="img/banner.png" style="max-width: 600px" alt=""></td>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <div class="path-text">
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    line-height: 1.2;
+                                    margin-bottom: 24px;
+                                    text-align: left;
+                                    color: #222222;
+                                    padding: 10px 40px 0px 10px;
+                                  "
+                                >
+                                  <span style="font-weight: bold"
+                                    >Receive an Omnipod DASH® System PDM</span
+                                  >
+                                  at
+                                  <span style="font-weight: bold"
+                                    >NO COST*</span
+                                  >
+                                  with the purchase of 1 box of Pods when you
+                                  switch from any in-warranty tubed pump.
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
                     </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr style="background-color: #ffffff; text-align: center">
+                <td>
+                  <p
+                    style="
+                      font-size: 18px;
+                      font-weight: bold;
+                      letter-spacing: 0.5;
+                      max-width: 400px;
+                      margin: 0 auto;
+                      text-align: center;
+                      padding-top: 30px;
+                      color: #222222;
+                    "
+                  >
+                    Experience tubeless freedom
+                  </p>
+                  <p style="
+                  font-size: 18px;
+                  letter-spacing: 0.5;
+                  max-width: 400px;
+                  margin: 0 auto;
+                  text-align: center;
+                  padding-top: 10px;
+                  color: #222222;
+                ">in just two simple steps...</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
-                    <!-- Heading Secondary -->
-                    <tr>
-                        <td>
-                            <table width="100%">
-                                <tr>
-                                    <td>
-                                        <br><br>
-                                        <p style="line-height:1.4; font-size:18px; letter-spacing: 0.5; max-width: 400px; margin:0 auto;">Switch to the tubeless Omnipod DASH® Insulin Management System and get a Personal Diabetes Manager (PDM) at no cost.*</p><br>
-                                        <p style="font-size:18px; font-weight:bold; letter-spacing: 0.5; max-width: 400px; margin:0 auto;">Join our Cut the Cord Program today!</p><br>
-                                    </td>
-                                </tr>
-
-                            </table>
-                        </td>
-                    </tr>
-
-                    <!-- Pod Section -->
-                    <tr>
-                        <td style="background: url(/img/pod-background.png); max-width: 600px;">
-                        <table width="100%">
+        <!-- TWO COLUMN SECTION -->
+        <tr>
+            <td style="background-color: #ffffff; color: #eee">
+                <table width="100%">
+                <tr>
+                    <td class="two-columns last" style="padding-top:20px;">
+                    <table class="column">
+                        <tr>
+                        <td class="padding">
+                            <table class="content">
                             <tr>
-                                <td class="two-columns">
-                                    <table class="column">
-                                        <tr>
-                                            <td>
-                                                <img src="img/POD+PDM-updated.png" width="180px" alt="">
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                    <table class="column">
-                                        <tr>
-                                            <td>
-                                                <p style=
-                                                "font-size:14px;
-                                                letter-spacing: 0.5; 
-                                                max-width: 400px; 
-                                                margin:0 auto; 
-                                                text-align: left;
-                                                padding-top: 100px;
-                                                padding-left: 30px;
-                                                line-height: 1.4;
-                                                ">Receive an <span style="font-weight:bold">Omnipod DASH® System PDM</span> at <span style="font-weight:bold">NO COST*</span> with the purchase of 1 box of Pods when you switch from any in-warranty tubed pump. 
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                <td>
+                                    <a href="#">
+                                        <img
+                                        style="padding-left:70.5px;"
+                                            src="img//step1.png"
+                                            alt=""
+                                            width="200"
+                                        />
+                                    </a>
                                 </td>
                             </tr>
-                        </table>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <table width="100%">
-                                <tr>
-                                    <td>
-                                        <p style="font-size:18px; 
-                                        font-weight:bold; 
-                                        letter-spacing: 0.5; 
-                                        max-width: 400px; 
-                                        margin:0 auto; 
-                                        text-align: center;
-                                        padding-top: 30px;
-                                        ">Experience tubeless freedom</p>
-                                        <p style="
-                                        font-size:18-x; 
-                                        letter-spacing: 0.5; 
-                                        max-width: 400px; 
-                                        margin:0 auto; 
-                                        text-align: center; 
-                                        color:#333;
-                                        padding-top: 10px;
-                                        ">In just two simple steps...</p>
-                                    </td>
-                                </tr>
                             </table>
                         </td>
-                    </tr>
+                        </tr>
+                    </table>
+                    <table class="column">
+                        <tr>
+                            <td class="padding">
+                            <table class="content">
+                                <tr>
+                                <td>
+                                    <a href="#">
+                                        <img
+                                        src="img//step-2.png"
+                                        alt=""
+                                        width="200"
+                                        />
 
+                                    </a>
+                                </td>
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
                 </table>
-            </div>
-            
-        </body>
-        </html>
+            </td>
+        </tr>
 
-        
+        <!-- Join program section -->
+        <tr>
+            <td style="padding-top: 40px">
+              <p
+                style="
+                  line-height: 1.4;
+                  font-size: 14px;
+                  letter-spacing: 0.5;
+                  max-width: 460px;
+                  margin: 0 auto;
+                "
+              >
+              Refer to the Omnipod DASH® Insulin Management System User Guide for complete safety information including indications, contraindications, warnings, cautions, and instructions.
+              </p>
+              <p
+              style="
+              line-height:1.2;
+              font-size:12px;
+              letter-spacing:0.2;
+              max-width:460px;
+              margin: 0 auto;
+              padding-top: 15px;
+              "
+              >
+                *This offer is available with the purchase of 1 box of Pods. This program is available to Medtronic, Tandem and Ypsomed insulin 
+                pump users only. Insulet Canada Corporation will not charge any provincial program for the cost of the PDM and you agree not to 
+                seek provincial program reimbursement for the PDM received through this offer. To qualify, Insulet Canada Corporation must verify the availability of funding support from provincial programs and/or where applicable, individuals’ private healthcare insurance program. The limited warranty period for the PDM will match the remainder of your current in-warranty existing insulin pump, not to exceed 
+                5 years from your date of order of the PDM from Insulet Canada Corporation or its distributors. The limited warranty period for this offer supersedes the limited 5-year warranty found in the Omnipod® Insulin Management System User Guide. The initial and ongoing cost of Pods is separate and NOT included in any part of this program. There are various payment options available for the purchase of Pods. Minimum purchase of 1 box of Pods with initial PDM shipment required for offer eligibility. Please call 1-855-POD-INFO (1-855-763-4636) for additional Pod purchase information. The cost of the Omnipod® System PDM and Pods are subject to standard pricing and cannot be combined with any other offers. The Cut the Cord Program is not available to Medtronic, Tandem and Ypsomed insulin pump users who are within their 90-day pump trial period or who have less than 3 months remaining on their current pump warranty period. Terms and conditions subject to change.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-top:20px;">
+              <a href="#"
+                ><img
+                  src="img/footer-banner copy.png"
+                  alt=""
+                  style="max-width: 600px;
+                  "
+              /></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background:#F1EFE9; padding-left: 70px; padding-top:10px;">
+              <a href="#"
+                ><img
+                  src="img/facebook-icon.png"
+                  alt=""
+                  style="max-width: 600px;
+                  "
+              /></a>
+              <a href="#">
+                  <img src="img/ig-logo.png" alt="" style="padding-bottom:3px;"></a>
+                  <a href="#">
+                    <img src="img/twitter-icon copy.png" alt="" style="padding-bottom:3px;"></a>
+                <a href="#"> <p>Contact</p></a>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </body>
+</html>
