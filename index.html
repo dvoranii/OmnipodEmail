@@ -42,7 +42,6 @@
             margin: 0 auto;
             width: 100%;
             max-width: 600px;
-            height: 20px;
             border-spacing: 0;
             font-family: sans-serif;
             color: #222222;
@@ -54,6 +53,7 @@
         }
 
         .two-columns .column {
+            width: 100%;
             max-width: 278px;
             display: inline-block;
             vertical-align: top;
@@ -64,7 +64,7 @@
         <body>
 
             <div class="wrapper">
-                <table class="main" width="100%"> 
+                <table class="main"> 
                     <!-- Logo section -->
                     <tr>
                         <td>
@@ -80,7 +80,7 @@
 
                     <!-- Banner section -->
                     <tr>
-                        <td><img src="img/banner.png" width="600px" alt=""></td>
+                        <td><img src="img/banner.png" style="max-width: 600px" alt=""></td>
                     </tr>
 
                     <!-- Heading Secondary -->
